@@ -1,7 +1,7 @@
 # Home Assistant Networking Notes
 
 ## Failure to resolve DNS defined by your local router
-This annoyed the crap out of me for a couple of hours, until I settled down and actually fired up a terminal in my Home Assisatant OS instance.
+This annoyed the crap out of me for a couple of hours, until I settled down and actually fired up a terminal in my Home Assistant OS instance.
 
 ### The situation
 I had defined a local DNS redirect in my UniFi controller at 192.168.1.1, pointing 'ha.mydomain.com' to local address 192.168.1.2. I did this so that I'd be able to issue a Let's Encrypt certificate against a publicly verifiable domain, but use it in my local network to secure communications.
