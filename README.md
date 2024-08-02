@@ -44,6 +44,8 @@ I was using [NoIp](https://www.noip.com/), until I realized that while their DDN
 
 There are [lots of providers out there](https://community.letsencrypt.org/t/dns-providers-who-easily-integrate-with-lets-encrypt-dns-validation/86438) who fit the bill, however.
 
+[Here's more details on how I did it in my environment.](howto/namecheap_ddns.md)
+
 ## Key Network Devices
 
 ### Gateway/firewall
