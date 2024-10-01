@@ -63,16 +63,17 @@ For my first server: any Debian system, basically minimum features + ssh (e.g. R
  - Git
 
 ## Core Services
- - **TBD** Reverse proxy/traffic manager/SSL chokepoint. 
- - **TBD** Container management GUI. Portainer?
- - **TBD** Backup manager (to get container data backed up to the NAS). Kopia? Borg?
- - **TBD** Performance monitoring. [Prometheus/Loki/Grafana?](https://github.com/DoTheEvo/selfhosted-apps-docker/tree/master/prometheus_grafana_loki)
- - **TBD** IDS/IPS
- - **TBD** Notifications
- - **TBD** IP banning tool
+ - Reverse proxy/traffic manager/SSL chokepoint. [trafik](https://github.com/traefik/traefik/) 
+ - Container management GUI. [Portainer](https://www.portainer.io/)
+ - Backup manager (to get container data backed up to the NAS). [borg](https://github.com/borgbackup/borg)
+ - Performance monitoring. [Prometheus/Loki/Grafana?](https://github.com/DoTheEvo/selfhosted-apps-docker/tree/master/prometheus_grafana_loki)
+ - **TBD** IDS/IPS/Vulnerability scanning
+ - Notifications [ntf](https://github.com/DoTheEvo/selfhosted-apps-docker/tree/master/gotify-ntfy-signal)
+ - IP banning tool [fail2ban](https://github.com/BaptisteBdn/docker-selfhosted-apps/tree/main/fail2ban)
+  - SSO/LDAP [authelia](https://www.authelia.com/)/[LLDAP](https://github.com/lldap/lldap)
 
 ## Utility Services
- - **TBD** RSS aggregator
+ - **TBD** RSS aggregator. Probably TinyTinyRSS
  - **TBD** File sharing system
 
 ## Home Automation
@@ -81,6 +82,7 @@ For my first server: any Debian system, basically minimum features + ssh (e.g. R
  - **TBD** NVR and video analysis. Frigate?
 
 ## Media Management
- - **TBD** Movies/music/tv shows. Plex? Jellyfin?
- - **TBD** Books and comics
- - **TBD** Photo Management
+ - Movies/music/tv shows, probably [Jellyfin](https://jellyfin.org/)
+ - **TBD** Books and comics. [Calibre-Web](https://github.com/janeczku/calibre-web?ref=selfh.st)? [Kavita](http://www.kavitareader.com/?ref=selfh.st)? [Komga](https://komga.org/?ref=selfh.st)?
+ - Photo Management, probably [Immich](https://immich.app/)
+ - Document Management, probably [Paperless](https://docs.paperless-ngx.com/)
